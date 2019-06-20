@@ -11,6 +11,28 @@
     text-align: center;
     line-height: 1.5;
   }
+
+  .app-img {
+    color: white;
+    width: 10%;
+    height: 10%;
+    margin: 0;
+    text-align: center;
+    background-color: black;
+  }
+
+  ul {
+    padding: 0; 
+    margin: 0;
+  }
+
+  ul li {
+    background-color: black;
+    color: white;
+    display: inline;
+    padding: 0;
+    list-style: none;
+  }
   
   nav,
   footer {
@@ -43,6 +65,14 @@
 
   nav h6 {
     display: none;
+  }
+
+  .app {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    align-items: center;
   }
   
   section {
@@ -83,6 +113,35 @@
     right: 0;
     z-index: 10;
     text-align: left;
+    }
+
+    .app {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      margin-top: 20px;
+    }
+
+    .app-img {
+      color: white;
+      width: 30%;
+      height: 30%;
+      margin: 0 auto;
+      text-align: center;
+      background-color: black;
+    }
+  
+    ul {
+      padding: 0; 
+      margin: 0;
+    }
+  
+    ul li {
+      background-color: black;
+      color: white;
+      display: inline;
+      padding: 0;
+      list-style: none;
     }
   } 
   
