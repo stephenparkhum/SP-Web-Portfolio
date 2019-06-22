@@ -51,7 +51,7 @@ body i {
   list-style: none;
 }
 
-/* CODE BADGES
+/* CODE BADGES */
 .badges {
   padding-top: 15px;
 }
@@ -119,7 +119,7 @@ body i {
   align-self: center;
   border: 0;
   cursor: pointer;
-} */
+}
 
 
 /* DESKTOP ANIMATIONS */
@@ -261,6 +261,7 @@ body i {
     background-color: var(--css);
     color: white;
     position: fixed;
+    align-self: center;
     bottom: 0;
     width: 100%;
     height: 50px;
