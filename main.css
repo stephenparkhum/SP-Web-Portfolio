@@ -51,6 +51,76 @@ body i {
   list-style: none;
 }
 
+/* CODE BADGES
+.badges {
+  padding-top: 15px;
+}
+
+.badge-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  list-style: none;
+  padding: 0;
+}
+
+.badge-list li {
+  padding-right: 5px;
+}
+
+.badge-list span {
+  padding: 7px;
+  width: 17px;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.js-badge {
+  background-color: var(--js);
+  color: black;
+
+}
+
+.html-badge {
+  background-color: var(--html);
+  color: white;
+}
+
+.css-badge {
+  background-color: var(--css);
+  color: white;
+}
+
+.html-badge {
+  background-color: var(--html);
+  color: white;
+}
+
+.jquery-badge {
+  background-color: var(--jquery);
+  color: white;
+}
+
+.gh-live {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.live-demo-link {
+  margin-left: 15px;
+  background-color: var(--css);
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  align-self: center;
+  border: 0;
+  cursor: pointer;
+} */
+
 
 /* DESKTOP ANIMATIONS */
 @keyframes fade-in-right {
@@ -133,10 +203,6 @@ body i {
 }
 
 
-
-
-
-
 /* MOBILE */
 @media only screen and (min-width : 200px) and (max-width : 768px) {
   body {
@@ -164,12 +230,6 @@ body i {
     text-align: center;
   }
 
-  .web-header {
-    align-self: flex-start;
-    display: block;
-    padding: 0;
-  }
-
   .header-class h1 {
     font-size: 25px;
     padding: 0px;
@@ -186,6 +246,7 @@ body i {
   .header-class nav {
     display: none;
   }
+
   section i {
     font-size: 15px;
   }
@@ -229,17 +290,16 @@ body i {
   }
 
   .container {
-    text-align: center;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center; 
     display: none;
   }
+
   .mobile-container {
+    width: 100%;
+    height: 100px;
     display: block;
-    font-size: 20px;
+    font-size: 22px;
+    font-weight: 100;
+    text-align: center;
     color: black;
   }
 
@@ -281,7 +341,7 @@ body i {
     align-items: center;
     flex-direction: row;
     padding: 0;
-    width: 80%;
+    width: 90%;
     height: 100vh;
     margin: 0 auto;
     text-align: center;
@@ -296,18 +356,7 @@ body i {
   }
 
   .text-area {
-    width: 80%;
-  }
-
-  .one,
-  .two,
-  .three,
-  .four {
-    display: none;
-  }
-
-  .mobile-header {
-    display: block;
+    width: 90%;
   }
 
   .port,
@@ -376,7 +425,7 @@ body i {
 
 /* DESKTOP */
 
-@media only screen and (min-width: 901px) {
+@media only screen and (min-width: 769px) {
   .container {
     height: 100vh;
     display: flex;
