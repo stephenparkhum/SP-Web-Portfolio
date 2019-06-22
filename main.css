@@ -64,6 +64,10 @@ body i {
     font-size: 15px;
   }
 
+  .i-hide {
+    display: none;
+  }
+
   .header-class {
     top: 0;
     width: 100%;
@@ -158,8 +162,7 @@ body i {
     flex-wrap: wrap;
     align-items: center; 
   }
-
-  .container.mobile-container {
+  .mobile-container {
     display: block;
     font-size: 20px;
     color: black;
@@ -215,6 +218,15 @@ body i {
     width: 90%;
     height: 100vh;
     margin: 0 auto;
+    text-align: center;
+  }
+
+  section.contact {
+    text-align: left;
+  }
+
+  section.contact.fas {
+    display: none;
   }
 
   .text-area {
@@ -331,7 +343,7 @@ body i {
 }
 
 .header-class nav {
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .mobile-header {
@@ -457,7 +469,7 @@ section {
   align-items: center;
   flex-direction: row;
   padding: 0;
-  width: 85%;
+  width: 90%;
   height: 100vh;
   margin: 0 auto;
 }
@@ -503,6 +515,7 @@ section {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  padding-top: 20px;
 }
 
 .app-showcase .fab {
@@ -519,7 +532,7 @@ section {
 
 .app img {
   align-self: center;
-  width: 250px;
+  width: 200px;
   border: 1px solid var(--css);
 }
 
