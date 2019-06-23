@@ -22,8 +22,6 @@ body i {
   font-size: 25px;
 }
 
-
-
 code {
   background-color: var(--css);
   color: white;
@@ -39,15 +37,18 @@ code {
 .contact i {
   color: var(--css);
   padding-right: 15px;
-  font-size: 30px;
+  font-size: 35px;
+  text-align: center;
 }
 
 .contact i.fas {
   color: var(--css);
-  font-size: 25px;
+  font-size: 30px;
+  text-align: center;
 }
 
 .contact li {
+  text-align: left;
   display: block;
   padding-top: 30px;
 }
@@ -240,8 +241,6 @@ code {
   }
 
   .header-class {
-    /* position: fixed;
-    z-index: 999; */
     background-color: white;
     top: 0;
     width: 100%;
@@ -255,9 +254,8 @@ code {
 
   .header-class h1 {
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
     padding: 10px;
-    /* align-self: center; */
   }
 
   .header-class a {
@@ -267,7 +265,7 @@ code {
 
   .head-subtitle {
     font-size: 0.75em;
-    font-weight: 100;
+    font-weight: 300;
     padding: 0;
     margin: 0;
   }
@@ -277,13 +275,13 @@ code {
   }
 
   .mobile-container {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
-    height: 150px;
+    height: 200px;
     display: block;
     font-size: 25px;
-    padding-top: 25px;
-    font-weight: 100;
+    padding-top: 50px;
+    font-weight: 300;
     text-align: center;
     color: black;
   }
@@ -293,7 +291,7 @@ code {
   }
 
   .bio h2,
-  .port h2, 
+  .port h2,
   .contact h2 {
     border-bottom: 2px solid var(--css);
     font-size: 25px;
@@ -324,6 +322,10 @@ code {
 
   .contact .i-hide {
     display: none;
+  }
+
+  .contact a {
+    color: var(--css);
   }
 
   .text-area ul {
@@ -366,7 +368,7 @@ code {
     text-decoration: none;
     color: var(--white);
     align-self: center;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 25px;
   }
 
@@ -462,7 +464,7 @@ code {
     flex-direction: row;
     justify-content: center;
     /* align-items: center; */
-  
+
   }
 
   .gh-live a {
@@ -517,9 +519,15 @@ code {
   }
 
 }
+
 /* DESKTOP */
 
 @media only screen and (min-width: 769px) {
+  section i.fas {
+    padding: 0 15px;
+  }
+
+
   .container {
     height: 100vh;
     display: flex;
@@ -527,11 +535,11 @@ code {
     flex-direction: row;
     justify-content: center;
   }
-  
+
   .mobile-container {
     display: none;
   }
-  
+
   .header-class {
     top: 0;
     background-color: white;
@@ -545,106 +553,106 @@ code {
     justify-content: space-between;
     padding-left: 30px;
   }
-  
+
   .header-class nav {
     font-size: 15px;
   }
-  
+
   .mobile-header {
     display: none;
   }
-  
+
   .header-class li a {
     color: var(--css);
     text-decoration: none;
   }
-  
+
   .header-class h1 a {
     text-decoration: none;
     color: black;
   }
-  
+
   .header-class h1 a:hover {
     border: none;
     align-self: center;
     color: var(--css);
   }
-  
+
   .header-class a:hover,
   .header-class a:visited {
     border-bottom: 1px solid var(--css);
   }
-  
+
   .header-class ul {
     text-transform: capitalize;
     display: flex;
     flex-direction: row;
     padding: 10px;
   }
-  
+
   .header-class ul li {
-    font-weight: 100;
+    font-weight: 300;
     list-style: none;
     align-self: center;
     margin: 0;
     padding: 0 20px 0 20px;
   }
-  
+
   header {
     padding: 0;
     margin: 0;
   }
-  
+
   header h1 {
     flex-grow: 6;
     padding: 2px;
     font-weight: 400;
     align-self: center;
   }
-  
+
   .head-subtitle {
     font-size: 0.85em;
     font-weight: 300;
     padding: 0;
     margin: 0;
   }
-  
+
   .container p {
     font-size: 30px;
   }
-  
+
   .placeholder {
     height: 130px;
   }
-  
+
   .one p {
-    font-weight: 100;
+    font-weight: 300;
   }
-  
+
   .two {
     padding-left: 15px;
   }
-  
+
   .js-text {
     color: var(--js);
   }
-  
+
   .html-text {
     color: var(--html);
   }
-  
+
   .css-text {
     color: var(--css);
   }
-  
+
   .code-text {
     padding-left: 5px;
   }
-  
+
   .code-text:first {
     padding-left: 0px;
   }
-  
+
   .html-btn {
     background-color: var(--html);
     color: white;
@@ -652,20 +660,24 @@ code {
     font-size: 20px;
     text-transform: uppercase;
   }
-  
+
   .bio {
     margin: 0 auto;
   }
-  
+
+  .bio .text-area {
+    width: 83%;
+  }
+
   .bio h2 {
     text-align: left;
   }
-  
+
   .bio p {
     font-size: 17px;
     line-height: 2.0rem;
   }
-  
+
   section {
     position: relative;
     display: flex;
@@ -677,43 +689,50 @@ code {
     height: 100vh;
     margin: 0 auto;
   }
-  
+
   .text-area {
     width: 90%;
   }
-  
+
   .text-area .headline-text {
     font-size: 20px;
   }
-  
+
   .headline-text {
     font-size: 20px;
   }
-  
+
   .port {
     margin-top: 20px;
   }
-  
+
   .fas {
     color: var(--css);
   }
-  
+
   .bio .fas {
     color: var(--js);
   }
-  
+
   .port .fas {
     color: var(--html);
   }
-  
+
   .contact .fas {
     color: var(--react);
+    padding: 0;
+    margin-right: 15px;
   }
-  
+
+  .contact .fa-github-square,
+  .contact .fa-linkedin {
+    margin-right: 2px;
+  }
+
   .react-text {
     color: var(--react);
   }
-  
+
   /* PORTFOLIO */
   .app-showcase {
     display: flex;
@@ -721,34 +740,34 @@ code {
     justify-content: space-evenly;
     padding-top: 20px;
   }
-  
+
   .app-showcase .fab {
     color: var(--css);
     font-size: 40px;
   }
-  
+
   .app {
     align-self: flex-start;
     padding: 15px;
     margin: 5px;
     width: 95%;
   }
-  
+
   .app img {
     align-self: center;
     width: 200px;
     border: 1px solid var(--css);
   }
-  
+
   .app h3 {
     color: var(--css);
     padding-bottom: 5px;
   }
-  
+
   .app p {
     width: 50%;
   }
-  
+
   code {
     background-color: var(--css);
     color: white;
@@ -756,12 +775,12 @@ code {
     padding: 5px 7px;
     border-radius: 4px;
   }
-  
+
   /* CODE BADGES */
   .badges {
     padding-top: 15px;
   }
-  
+
   .badge-list {
     display: flex;
     flex-direction: row;
@@ -769,53 +788,53 @@ code {
     list-style: none;
     padding: 0;
   }
-  
+
   .badge-list li {
     padding-right: 5px;
   }
-  
+
   .badge-list span {
     padding: 7px;
     width: 17px;
     font-size: 12px;
     border-radius: 5px;
   }
-  
+
   .js-badge {
     background-color: var(--js);
     color: black;
-  
+
   }
-  
+
   .html-badge {
     background-color: var(--html);
     color: white;
   }
-  
+
   .css-badge {
     background-color: var(--css);
     color: white;
   }
-  
+
   .html-badge {
     background-color: var(--html);
     color: white;
   }
-  
+
   .jquery-badge {
     background-color: var(--jquery);
     color: white;
   }
-  
+
   .gh-live {
     margin-top: 50px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-  
+
   }
-  
+
   .live-demo-link {
     margin-left: 15px;
     background-color: var(--css);
@@ -826,35 +845,33 @@ code {
     border: 0;
     cursor: pointer;
   }
-  
+
   /* FOOTER */
   footer {
     display: none;
   }
-  
-  
+
+
   /* APP BADGES */
-  
+
   /* CONTACT */
   .contact .fa-paper-plane {
     color: var(--css);
     font-size: 25px;
   }
-  
+
   .contact a {
     color: var(--css);
     text-decoration: none;
     margin-left: 15px;
     font-size: 25px;
-    font-weight: 100;
+    font-weight: 300;
   }
-  
+
   .contact a:hover {
     border-bottom: 1px solid var(--css);
   }
-  
-  
-  
+
+
+
 }
-
-
