@@ -226,6 +226,9 @@ code {
   body {
     margin: 0;
     padding: 0;
+    background-image: url(/images/bg_mobile.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 
   body i {
@@ -237,6 +240,9 @@ code {
   }
 
   .header-class {
+    /* position: fixed;
+    z-index: 999; */
+    background-color: white;
     top: 0;
     width: 100%;
     display: flex;
@@ -273,7 +279,7 @@ code {
   .mobile-container {
     width: 80%;
     margin: 0 auto;
-    height: 200px;
+    height: 150px;
     display: block;
     font-size: 25px;
     padding-top: 25px;
@@ -399,9 +405,6 @@ code {
     text-transform: uppercase;
   }
 
-  
-
-
   section {
     position: relative;
     display: flex;
@@ -419,9 +422,9 @@ code {
     text-align: left;
   }
 
-  section.contact.fas {
+  /* section.contact.fas {
     display: none;
-  }
+  } */
 
   .text-area {
     width: 90%;
@@ -451,6 +454,11 @@ code {
     justify-content: center;
     align-items: center;
   
+  }
+
+  .gh-live .fas {
+    color: blue;
+    font-size: 20px;
   }
 
   .badge-list {
@@ -508,7 +516,6 @@ code {
   .header-class {
     top: 0;
     background-color: white;
-    /* border-bottom: 1px solid var(--css); */
     width: 100%;
     position: fixed;
     align-self: center;
@@ -653,7 +660,7 @@ code {
   }
   
   .text-area {
-    width: 80%;
+    width: 90%;
   }
   
   .text-area .headline-text {
