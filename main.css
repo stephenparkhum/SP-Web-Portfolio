@@ -419,6 +419,7 @@ code {
   }
 
   section.contact {
+    justify-content: center;
     text-align: left;
   }
 
@@ -437,8 +438,16 @@ code {
     width: 90%;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    margin-top: 20px;
+    margin-top: 30px;
+  }
+
+  .app-showcase {
+    margin-top: 50px;
+  }
+
+  .app h3 {
+    font-size: 25px;
+    color: var(--css);
   }
 
   .app img {
@@ -452,20 +461,30 @@ code {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
   
   }
 
-  .gh-live .fas {
-    color: blue;
-    font-size: 20px;
+  .gh-live a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .gh-live i {
+    display: block;
+    color: var(--css);
+    font-size: 45px;
+    align-self: center;
   }
 
   .badge-list {
     display: flex;
+    height: 50px;
+    width: 70%;
+    margin: 0 auto;
     flex-direction: row;
     justify-content: flex-start;
-    list-style: none;
   }
 
   .fas {
@@ -584,8 +603,8 @@ code {
   }
   
   .head-subtitle {
-    font-size: 0.75em;
-    font-weight: 100;
+    font-size: 0.85em;
+    font-weight: 300;
     padding: 0;
     margin: 0;
   }
