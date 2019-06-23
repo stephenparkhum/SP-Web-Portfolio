@@ -1,4 +1,4 @@
-# S. Parker Web Portfolio
+# S. Parker - Web Development Portfolio
 [Live Link](http://sparker.work)
 
 ### Description 
