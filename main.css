@@ -317,6 +317,7 @@ code {
   .bio p,
   .port p {
     line-height: 1.75rem;
+    padding: 10px 0;
   }
 
   .bio i,
