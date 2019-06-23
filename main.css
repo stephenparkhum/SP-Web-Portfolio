@@ -275,7 +275,7 @@ code {
   }
 
   .mobile-container {
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     height: 200px;
     display: block;
@@ -284,6 +284,19 @@ code {
     font-weight: 300;
     text-align: center;
     color: black;
+  }
+
+  .headline-text {
+    display: none;
+  }
+
+  .headline-text-mobile {
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .headline-text-mobile span {
+    color: var(--css);
   }
 
   section i {
@@ -425,11 +438,8 @@ code {
     text-align: left;
   }
 
-  /* section.contact.fas {
-    display: none;
-  } */
-
   .text-area {
+    margin-top: 0;
     width: 90%;
   }
 
@@ -560,6 +570,14 @@ code {
 
   .mobile-header {
     display: none;
+  }
+
+  .headline-text-mobile {
+    display: none;
+  }
+
+  .bio .text-area p {
+    padding: 10px 0;
   }
 
   .header-class li a {
