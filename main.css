@@ -63,19 +63,24 @@ code {
 
 /* CODE BADGES */
 .badges {
-  padding-top: 15px;
+  padding-top: 5px;
+  margin: 0;
+  text-align: center;
 }
 
 .badge-list {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 .badge-list li {
   padding-right: 5px;
+  align-self: center;
+  text-align: center;
 }
 
 .badge-list span {
@@ -112,12 +117,15 @@ code {
 }
 
 .gh-live {
-  margin-top: 50px;
+  margin-top: 25px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+}
 
+.gh-live .fas {
+  display: block;
 }
 
 .live-demo-link {
@@ -241,9 +249,9 @@ code {
 
   .header-class h1 {
     text-align: center;
-    font-size: 25px;
-    padding: 0px;
-    align-self: center;
+    font-size: 20px;
+    padding: 10px;
+    /* align-self: center; */
   }
 
   .header-class a {
@@ -252,7 +260,7 @@ code {
   }
 
   .head-subtitle {
-    font-size: 0.95em;
+    font-size: 0.75em;
     font-weight: 100;
     padding: 0;
     margin: 0;
@@ -260,6 +268,18 @@ code {
 
   .header-class nav {
     display: none;
+  }
+
+  .mobile-container {
+    width: 80%;
+    margin: 0 auto;
+    height: 200px;
+    display: block;
+    font-size: 25px;
+    padding-top: 25px;
+    font-weight: 100;
+    text-align: center;
+    color: black;
   }
 
   section i {
@@ -270,14 +290,15 @@ code {
   .port h2, 
   .contact h2 {
     border-bottom: 2px solid var(--css);
-    font-size: 30px;
+    font-size: 25px;
     margin: 0;
     padding-bottom: 15px;
     width: 100%;
     text-align: center;
   }
 
-  .bio p {
+  .bio p,
+  .port p {
     line-height: 1.75rem;
   }
 
@@ -286,8 +307,13 @@ code {
     display: none;
   }
 
-  .contact {
+  section .contact {
     width: 90%;
+    align-content: center;
+  }
+
+  section .contact .fas {
+    font-size: 10px;
   }
 
   .contact .i-hide {
@@ -297,8 +323,6 @@ code {
   .text-area ul {
     padding: 0;
   }
-
-
 
   /* FOOTER NAV */
 
@@ -336,27 +360,20 @@ code {
     text-decoration: none;
     color: var(--white);
     align-self: center;
-    font-size: 20px;
+    font-weight: 100;
+    font-size: 25px;
   }
 
   .container {
     display: none;
   }
 
-  .mobile-container {
-    width: 80%;
-    margin: 0 auto;
-    height: 200px;
-    display: block;
-    font-size: 22px;
-    padding-top: 25px;
-    font-weight: 100;
-    text-align: center;
-    color: black;
-  }
-
   footer nav ul {
     padding: 0;
+    margin: 0;
+  }
+
+  .contact .text-area ul {
     margin: 0;
   }
 
@@ -388,7 +405,7 @@ code {
   section {
     position: relative;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
     padding: 0;
