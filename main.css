@@ -874,8 +874,9 @@ code {
   /* APP BADGES */
 
   /* CONTACT */
-  .contact .fa-paper-plane {
-    color: var(--css);
+
+  .contact .fa-arrow-right {
+    padding-left: 20px;
     font-size: 25px;
   }
 
