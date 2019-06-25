@@ -1,10 +1,12 @@
 /* GLOBAL STYLES */
 :root {
-  --html: #e44f26;
-  --css: #006ebd;
-  --js: #f7df1e;
+  /* --html: #485057; */
+  --html: #F6511D;
+  --css: #333A42;
+  --js: #0D2C54;
+  /* --js: #F0C808; */
   --jquery: #0766A8;
-  --react: #61dafb;
+  --react: #3D5B75;
   --fade: #006ebd36;
   --white: #FFF;
 }
@@ -93,13 +95,13 @@ code {
 
 .js-badge {
   background-color: var(--js);
-  color: black;
+  color: white;
 
 }
 
 .html-badge {
   background-color: var(--html);
-  color: white;
+  color: black;
 }
 
 .css-badge {
@@ -109,7 +111,7 @@ code {
 
 .html-badge {
   background-color: var(--html);
-  color: white;
+  color: black;
 }
 
 .jquery-badge {
@@ -223,7 +225,7 @@ code {
 
 
 /* MOBILE */
-@media only screen and (min-width : 200px) and (max-width : 768px) {
+@media only screen and (min-width : 150px) and (max-width : 768px) {
   body {
     margin: 0;
     padding: 0;
@@ -828,22 +830,17 @@ code {
 
   .js-badge {
     background-color: var(--js);
-    color: black;
+    color: white;
 
   }
 
   .html-badge {
     background-color: var(--html);
-    color: white;
+    color: black;
   }
 
   .css-badge {
     background-color: var(--css);
-    color: white;
-  }
-
-  .html-badge {
-    background-color: var(--html);
     color: white;
   }
 
