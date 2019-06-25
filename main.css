@@ -344,6 +344,10 @@ code {
     padding: 0;
   }
 
+  .contact .text-area ul li a {
+    font-size: 15px;
+  }
+
   /* FOOTER NAV */
 
   .footer-nav {
@@ -491,11 +495,16 @@ code {
 
   .badge-list {
     display: flex;
-    height: 50px;
-    width: 70%;
-    margin: 0 auto;
     flex-direction: row;
     justify-content: flex-start;
+    height: 50px;
+    width: 80%;
+    margin: 0 auto;
+    
+  }
+
+  ul.badge-list {
+    align-self: center;
   }
 
   .fas {
