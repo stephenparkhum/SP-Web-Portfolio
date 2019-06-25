@@ -330,6 +330,10 @@ code {
     height: 400px;
   }
 
+  section .contact .text-area {
+    height: 400px;
+  }
+
   section .contact .fas {
     font-size: 10px;
   }
@@ -354,6 +358,7 @@ code {
 
   .footer-nav {
     display: block;
+    padding-bottom: 80px;
   }
 
   .footer-nav nav {
