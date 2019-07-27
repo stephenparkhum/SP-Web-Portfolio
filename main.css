@@ -34,6 +34,7 @@ code {
 
 .name-font {
   font-family: 'Oswald', sans-serif;
+  color: var(--js);
 }
 
 .contact i {
@@ -553,6 +554,10 @@ code {
   }
 
 
+  .html_hover :hover {
+    color: var(--html);
+  }
+
   .container {
     height: 100vh;
     display: flex;
@@ -721,6 +726,35 @@ code {
     width: 90%;
     height: 100vh;
     margin: 0 auto;
+  }
+
+  .skills-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .skills-icons div {
+    margin: 25px;
+  }
+
+  .text-area.skills-icons div i {
+    font-size: 75px;
+    color: var(--js);
+  }
+
+  .skills-icons p {
+    text-align: center;
+  }
+
+  ul li {
+    list-style-type: none;
+  }
+
+  ul li i {
+    color: var(--js);
+    font-size: 55px;
   }
 
   .text-area {
