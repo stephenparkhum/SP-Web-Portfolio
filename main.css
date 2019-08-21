@@ -553,6 +553,25 @@ code {
     padding: 0 15px;
   }
 
+  .contact_btn {
+    margin-top: 20px;
+    padding: 10px;
+    background: var(--react);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+
+  .contact_btn:hover {
+    background: var(--jquery);
+  }
+
+  .contact_btn a {
+    text-decoration: none;
+    color: white;
+  }
+
 
   .html_hover :hover {
     color: var(--html);
