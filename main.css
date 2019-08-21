@@ -122,7 +122,7 @@ code {
 }
 
 .gh-live {
-  margin-top: 25px;
+  margin-top: 15px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -134,7 +134,7 @@ code {
 }
 
 .live-demo-link {
-  margin-left: 15px;
+  margin-left: 20px;
   background-color: var(--css);
   color: white;
   padding: 10px;
@@ -502,7 +502,8 @@ code {
   }
 
   .gh-live {
-    margin-top: 50px;
+    margin-top: 25px;
+    margin-bottom: 55px;
     display: flex;
     flex-direction: row;
     justify-content: center;
