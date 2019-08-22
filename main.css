@@ -342,6 +342,47 @@ code {
     display: none;
   }
 
+  section .skills {
+    width: 90%;
+    align-self: center;
+    margin-top: 0;
+    height: 400px;
+  }
+
+
+  .contact .skills .text-area {
+    padding-bottom: 50px;
+  }
+
+  .skills-icons {
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .skills-icons i {
+    font-size: 75px;
+  }
+
+
+  section #skills {
+    height: 400px;
+  }
+
+  section .skills .fas {
+    font-size: 10px;
+  }
+
+  .skills .i-hide {
+    display: none;
+  }
+
+  .skills .skills-icons i {
+    font-size: 50px;
+    color: var(--js);
+  }
+
   section .contact {
     width: 90%;
     align-self: center;
