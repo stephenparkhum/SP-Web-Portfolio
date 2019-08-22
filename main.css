@@ -770,6 +770,18 @@ code {
     margin: 0 auto;
   }
 
+  .skills .skills-icons i {
+    font-size: 55px;
+    margin: 0 10px;
+    color: var(--js);
+  }
+
+  .skills .skills-icons i:hover {
+    color: var(--html);
+  }
+
+  
+
   .skills-icons {
     display: flex;
     flex-direction: row;
@@ -781,7 +793,7 @@ code {
     margin: 25px;
   }
 
-  .text-area.skills-icons div i {
+  .text-area .skills-icons div i {
     font-size: 75px;
     color: var(--js);
   }
